@@ -1,0 +1,14 @@
+Research and try other layouts from Kivy int aside box and grid
+Use kivy atlas for icons used from here on out
+kivy.uix.recycleview.RecycleView can be used to seperate verses of a chapter in the body in a bible app
+RecycleView for list of words in sidebar
+ScrollView for lengthy definitions in Label
+RobotoFont!
+NB: garden/navigationdrawer/__init__.py had all Color rgb values changed to white (1,1,1) from (0,0,0) as the default black look was not in tone with the overall look of the app
+force portait mode in .spec
+widget area above buttons in side bar will display the content required on either button clicked in a ScrollView
+for android version, cast recommended font sizes to dp or  use sp (like on ln 33 in navigationdrawer_test.py)
+non-fullscreen in .spec
+investigate App() methods on_pause and on_resume for games on Android OS
+dont forget to copy navigationdrawer from kivy-garden to Ubuntu image before building
+ensure navigationdrawer is added to garden_requirements in .spec
